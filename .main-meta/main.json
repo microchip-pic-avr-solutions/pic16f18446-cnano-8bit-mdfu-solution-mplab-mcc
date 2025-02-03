@@ -1,0 +1,72 @@
+{
+    "metaDataVersion": "1.0.0",
+    "category": "com.microchip.ide.project",
+    "content": {
+        "metaDataVersion": "1.3.0",
+        "name": "com.microchip.mcu8.mplabx.project.pic16f18446-cnano-8bit-mdfu-solution-mplab-mcc",
+        "version": "1.0.0",
+        "displayName": "8-Bit Microchip Device Firmware Update (MDFU) Solution for the PIC16F18446 Curiosity Nano Evaluation Kit",
+        "projectName": "pic16f18446-cnano-8bit-mdfu-solution-mplab-mcc",
+        "shortDescription": "This repository contains two MPLAB® X projects designed to showcase the 8-Bit MDFU Client library and the ecosystem it creates.",
+        "ide": {
+            "name": "MPLAB X",
+            "semverRange": "^6.20.0"
+        },
+        "compiler": [
+            {
+                "name": "XC8",
+                "semverRange": "^3.00.0"
+            }
+        ],
+        "dfp": {
+            "name": "PIC16F1xxxx_DFP",
+            "semverRange": "^1.25.389"
+        },
+        "configurator": {
+            "name": "MCC",
+            "semverRange": "^5.7.1"
+        },
+        "device": {
+            "metaDataVersion": "1.0.0",
+            "category": "com.microchip.portal.contentRef",
+            "content": {
+                "metaDataVersion": "1.0.0",
+                "category": "com.microchip.device",
+                "name": "PIC16F18446",
+                "versionRange": "*"
+            }
+        },
+        "author": "Microchip",
+        "peripherals": [
+            "Interrupt",
+            "UART",
+            "NVM",
+            "Timer"
+        ],
+        "keywords": [
+            "Melody",
+            "MCC Melody",
+            "Curiosity",
+            "Curiosity Nano",
+            "Bootloader",
+            "Memory",
+            "Serial Communication",
+            "8-Bit MDFU Client",
+            "Microchip Device Firmware Update",
+            "MDFU",
+            "Virtual COM Port",
+            "File Transfer Protocol"
+        ],
+        "additionalData": {
+            "longDescription": {
+                "metaDataVersion": "1.0.0",
+                "category": "com.microchip.portal.fileRef",
+                "content": {
+                    "metaDataVersion": "1.0.0",
+                    "fileName": "./README.md",
+                    "mimeType": "text/markdown"
+                }
+            }
+        }
+    }
+}
