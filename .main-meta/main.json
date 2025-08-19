@@ -4,13 +4,13 @@
     "content": {
         "metaDataVersion": "1.3.0",
         "name": "com.microchip.mcu8.mplabx.project.pic16f18446-cnano-8bit-mdfu-solution-mplab-mcc",
-        "version": "1.0.0",
+        "version": "1.1.0",
         "displayName": "8-Bit Microchip Device Firmware Update (MDFU) Solution for the PIC16F18446 Curiosity Nano Evaluation Kit",
         "projectName": "pic16f18446-cnano-8bit-mdfu-solution-mplab-mcc",
-        "shortDescription": "This repository contains two MPLAB® X projects designed to showcase the 8-Bit MDFU Client library and the ecosystem it creates.",
+        "shortDescription": "This repository contains four MPLAB® X projects designed to showcase the 8-Bit MDFU Client library and the ecosystem it creates.",
         "ide": {
             "name": "MPLAB X",
-            "semverRange": "^6.20.0"
+            "semverRange": "^6.25.0"
         },
         "compiler": [
             {
@@ -20,11 +20,11 @@
         ],
         "dfp": {
             "name": "PIC16F1xxxx_DFP",
-            "semverRange": "^1.25.389"
+            "semverRange": "^1.27.418"
         },
         "configurator": {
             "name": "MCC",
-            "semverRange": "^5.7.1"
+            "semverRange": "^5.8.2"
         },
         "device": {
             "metaDataVersion": "1.0.0",
